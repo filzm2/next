@@ -1,0 +1,17 @@
+$(function(){
+$(".knopka-1").click(function(){
+    $(".block-2").fadeOut(1);
+    $(".block-3").fadeOut(1);
+    $(".block-1").fadeIn(100);
+    });
+    $(".knopka-2").click(function(){
+    $(".block-1").fadeOut(1);
+    $(".block-3").fadeOut(1);
+    $(".block-2").fadeIn(100);
+    });
+    $(".knopka-3").click(function(){
+    $(".block-1").fadeOut(1);
+    $(".block-2").fadeOut(1);
+    $(".block-3").fadeIn(100);
+    });
+});

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Fave';
+    src: local('Fave Script'), local('Fave-Script'),
+        url('Fave-Script.woff2') format('woff2'),
+        url('Fave-Script.woff') format('woff'),
+        url('Fave-Script.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
